@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
                 progressBar.progress = i
             }
 
-            // CORREÇÃO: Usar this@MainActivity e colocar o nome da PRÓXIMA tela
             val intent = Intent(this@MainActivity, Login::class.java)
             startActivity(intent)
 
