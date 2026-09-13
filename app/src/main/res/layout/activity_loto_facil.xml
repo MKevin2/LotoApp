@@ -9,22 +9,22 @@
     tools:context=".LotoFacil">
 
     <TextView
+        android:id="@+id/tvJogoLotoFacil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="153dp"
         android:layout_marginTop="38dp"
         android:layout_marginEnd="153dp"
-        android:text="Resultados:"
         android:textColor="#564E58"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/tvResultadoLotoFacil"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etJogosMega9" />
+        app:layout_constraintTop_toBottomOf="@+id/etNumLotoFacil" />
 
     <EditText
-        android:id="@+id/etJogosMega9"
+        android:id="@+id/etNumLotoFacil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="63dp"
@@ -46,7 +46,7 @@
         android:text="Números:"
         android:textColor="#564E58"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/etJogosMega9"
+        app:layout_constraintBottom_toTopOf="@+id/etNumLotoFacil"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
@@ -77,9 +77,9 @@
         android:layout_marginEnd="81dp"
         android:layout_marginBottom="11dp"
         android:width="250dp"
-        android:text="TextView"
         android:textAlignment="center"
         android:textColor="#ffffff"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/btGerarLotoFacil"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -125,13 +125,13 @@
         android:text="Jogos:"
         android:textColor="#564E58"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/etJogosMega8"
+        app:layout_constraintBottom_toTopOf="@+id/etJogosLotoFacil"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/etJogosMega8"
+        android:id="@+id/etJogosLotoFacil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="63dp"
